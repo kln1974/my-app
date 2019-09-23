@@ -18,4 +18,10 @@ public class TestCal {
 		int result = calc.multiply(5, 5);
 		assertEquals(25, result);
 	}
+	@Test
+	public void testSubtract() {
+		Calculator calc = new Calculator();
+		int result = calc.subtract(15, 5);
+		assertEquals(0, result);
+	}
 }
