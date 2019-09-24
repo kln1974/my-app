@@ -24,4 +24,10 @@ public class TestCal {
 		int result = calc.subtract(15, 5);
 		assertEquals(10, result);
 	}
+	@Test
+	public void testDivision() {
+		Calculator calc = new Calculator();
+		int result = calc.division(15, 5);
+		assertEquals(3, result);
+	}
 }
